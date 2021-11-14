@@ -42,7 +42,7 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    @foreach($categories as $category):
+                                    @foreach($categories as $category)
                                         <tr>
                                             <td>{{ $category->id }}</td>
                                             <td>{{ $category->title }}</td>

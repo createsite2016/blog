@@ -15,6 +15,6 @@ class StoreController extends Controller
 
         Category::firstOrCreate($data);
 
-        redirect()->route('admin.category.index');
+        return redirect()->route('admin.category.index');
     }
 }

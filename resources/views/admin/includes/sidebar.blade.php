@@ -17,6 +17,15 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{ route('admin.tag.index') }}" class="nav-link">
+                        <i class="fas fa-tags"></i>
+                        <p>
+                            Теги
+                            <span class="right badge badge-danger">бро</span>
+                        </p>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>

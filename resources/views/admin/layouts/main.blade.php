@@ -60,6 +60,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="{{ asset('plugins/moment/moment.min.js') }}"></script>
 <script src="{{ asset('plugins/daterangepicker/daterangepicker.js') }}"></script>
 <script src="{{ asset('plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+<script src="{{ asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js') }}"></script>
 <!-- AdminLTE App -->
 <script src="{{ asset('dist/js/adminlte.min.js') }}"></script>
 <script>
@@ -75,6 +76,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 ['height', ['height']]
             ]
         });
+    });
+    $(function () {
+        bsCustomFileInput.init();
     });
 </script>
 </body>

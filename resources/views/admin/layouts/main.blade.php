@@ -81,5 +81,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         bsCustomFileInput.init();
     });
 </script>
+<style>
+    .custom-file-input:lang(en)~.custom-file-label::after {
+        content: "...";
+    }
+</style>
 </body>
 </html>

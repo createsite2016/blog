@@ -9,11 +9,20 @@
                      with font-awesome or any other icon font library -->
 
                 <li class="nav-item">
+                    <a href="{{ route('admin.post.index') }}" class="nav-link">
+                        <i class="nav-icon fas fa-mail-bulk"></i>
+                        <p>
+                            Посты
+                            <span class="right badge badge-danger">йоу</span>
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href="{{ route('admin.category.index') }}" class="nav-link">
                         <i class="nav-icon far fa-list-alt"></i>
                         <p>
                             Категории
-                            <span class="right badge badge-danger">йоу</span>
+                            <span class="right badge badge-danger">нига</span>
                         </p>
                     </a>
                 </li>

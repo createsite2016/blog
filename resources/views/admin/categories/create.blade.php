@@ -30,6 +30,11 @@
                             @csrf
                             <div class="form-group">
                                 <input type="text" name="title" class="form-control" placeholder="Название категории">
+                                @error('title')
+                                    <div class="text-danger">
+                                        Это поле необходимо заполнить
+                                    </div>
+                                @enderror
                             </div>
                             <input type="submit" class="btn btn-primary" value="Добавить">
                         </form>

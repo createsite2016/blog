@@ -34,7 +34,16 @@
                                 value="{{ $user->name }}">
                                 @error('name')
                                     <div class="text-danger">
-                                        Это поле необходимо заполнить
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="E-mail"
+                                value="{{ $user->email }}">
+                                @error('email')
+                                    <div class="text-danger">
+                                        {{ $message }}
                                     </div>
                                 @enderror
                             </div>

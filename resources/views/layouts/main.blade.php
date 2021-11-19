@@ -52,7 +52,7 @@
                         <a class="nav-link" href="#"><span class="flag-icon flag-icon-squared rounded-circle flag-icon-gb"></span> Eng</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Download</a>
+                        <a class="nav-link" href="/admin/">ADMIN</a>
                     </li>
                 </ul>
             </div>
